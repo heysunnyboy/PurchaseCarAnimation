@@ -14,7 +14,7 @@ ios 添加购物车的交互动画
 *  @param finishPoint 下落的位置
 *  @param animationFinisnBlock 动画完成回调
 */
--(void)startAnimationandView:(UIView *)view andRect:(CGRect)rect andFinisnRect:(CGPoint)finishPoint andFinishBlock:(animationFinisnBlock)completion;
+- (void)startAnimationandView:(UIView *)view andRect:(CGRect)rect andFinisnRect:(CGPoint)finishPoint andFinishBlock:(animationFinisnBlock)completion;
 ```
 简书地址
 http://www.jianshu.com/p/bd650158d44c

@@ -43,15 +43,15 @@
     }
 }
 #pragma mark -- Delegate and DataSource
--(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return 30;
 }
--(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     return 1;
 }
--(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     TableViewCell *cell  = [tableView dequeueReusableCellWithIdentifier:@"TableViewCell"];
     
@@ -70,11 +70,11 @@
     };
     return cell;
 }
--(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return 114;
 }
--(void)clickCar
+- (void)clickCar
 {
     [[PurchaseCarAnimationTool shareTool]startAnimationandView:_imageView andRect:_imageView.frame andFinisnRect:CGPointMake(ScreenWidth/4*2.5, ScreenHeight-49) andFinishBlock:^(BOOL finisn){
         UIView *tabbarBtn = self.tabBarController.tabBar.subviews[3];
