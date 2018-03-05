@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PruchaseCarAnimation/ViewController.m"
-            timestampString = "493175881.654005"
+            timestampString = "541913891.036451"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "-setUI"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,12 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PruchaseCarAnimation/ViewController.m"
-            timestampString = "493145287.934732"
+            timestampString = "541913891.036919"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "-setUI"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "-didReceiveMemoryWarning"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

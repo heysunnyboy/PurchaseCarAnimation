@@ -19,20 +19,23 @@ typedef void (^animationFinisnBlock)(BOOL finish);
  *
  *  @return <#return value description#>
  */
-+(instancetype)shareTool;
++ (instancetype)shareTool;
 /**
  *  开始动画
  *
  *  @param view        添加动画的view
  *  @param rect        view 的绝对frame
  *  @param finishPoint 下落的位置
- *  @param animationFinisnBlock 动画完成回调
+ *  @param finishBlock 动画完成回调
  */
--(void)startAnimationandView:(UIView *)view andRect:(CGRect)rect andFinisnRect:(CGPoint)finishPoint andFinishBlock:(animationFinisnBlock)completion;
+- (void)startAnimationandView:(UIView *)view
+                         rect:(CGRect)rect
+                  finisnPoint:(CGPoint)finishPoint
+                  finishBlock:(animationFinisnBlock)completion;
 /**
  *  摇晃动画
  *
  *  @param shakeView <#shakeView description#>
  */
-+(void)shakeAnimation:(UIView *)shakeView;
++ (void)shakeAnimation:(UIView *)shakeView;
 @end

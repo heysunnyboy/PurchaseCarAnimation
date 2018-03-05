@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 typedef void (^clickCars)(UIImageView *goodImage);
 @interface TableViewCell : UITableViewCell
-@property (weak, nonatomic) IBOutlet UIImageView *goodImageView;
-@property (strong , nonatomic)clickCars clickCars;
+/// 图片
+@property (nonatomic, weak) IBOutlet UIImageView *goodImageView;
+/// 点击购物车回调
+@property (nonatomic, strong)clickCars clickCars;
 @end
